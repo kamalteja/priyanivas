@@ -36,7 +36,7 @@ jobs:
       - name: S3 Sync
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:
-          args: --exclude '.git/*' --exclude '.github'
+          args: --exclude '.git/*' --exclude '.github' --delete
 
 #      - name: S3 Deploy
 #        # You may pin to the exact commit or the version.
