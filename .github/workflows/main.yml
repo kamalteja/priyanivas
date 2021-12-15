@@ -21,11 +21,11 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_VINAY }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_VINAY }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       
       # For S3 Sync
-      AWS_S3_BUCKET: 'priyanivas.live'
+      AWS_S3_BUCKET: 'priyawedsvinay.live'
       AWS_REGION: 'us-east-2'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
