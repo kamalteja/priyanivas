@@ -1100,10 +1100,10 @@ footer {
 
 @media (max-width: 555px) {
 .banner-container {
-width:100%;
+width:130%;
 }
 .web-content{
-width:100%;;
+width:70%;;
 }
 .banner-container {
 	position: relative;
