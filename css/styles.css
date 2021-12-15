@@ -340,7 +340,7 @@ h2, .h2 {
 	background: #c0392b;
 }
 .countdown {
-	text-align: center;
+	/* text-align: center; */
 	margin-top: 16px;
 	line-height: 48px;
 }
@@ -427,7 +427,8 @@ opacity: .6;
 
 .countdown-style {
     color: #d9738c;
-    margin-top: 105%;
+    margin-top: 890px;
+    margin-left: 270px;
 
 }
 .countdown-style div {
@@ -448,14 +449,14 @@ opacity: .6;
 }
 .banner-container {
 	background-image: url('../images/bg-2.jpg');
-	background-repeat: repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
 	min-height: 775px;
 	float:left;
-	background-size: cover;
 	display: inline-block;
 	font-size: 14px;
 	height: 100%;
-	overflow: hidden;
+	overflow: unset;
 	position: fixed;
 	text-shadow: 1px 1px rgba(0,0,0,0.3);
 	width: 40%;
@@ -1080,7 +1081,7 @@ footer {
 	height: 110%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 555px) {
 
 .header .navbar-brand {
 	padding-left: 0;
@@ -1097,7 +1098,7 @@ footer {
 }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 555px) {
 .banner-container {
 width:100%;
 }
@@ -1107,6 +1108,13 @@ width:100%;;
 .banner-container {
 	position: relative;
 }
+.countdown-style {
+    margin-left: 175px;
+    margin-top: 565px;
+}
+/* .countdown-style div {
+    text-align: center;
+} */
 #home .heading h2 {
 	font-size: 26px !important;
 	line-height: 36px;
@@ -1118,7 +1126,7 @@ width:100%;;
 	display: inline-block;
 	margin-left: 0;
 	font-size: 25px;
-    width: 7.5%;
+    width: 40px;
 }
 .styled div span {
 	font-size: 15px;
@@ -1134,7 +1142,7 @@ width:100%;;
 }
 }
 
-@media (max-width:760px) {
+@media (max-width:555px) {
 	.heading{
 		margin-bottom: 22px;
 		margin-top: 0px;
@@ -1148,10 +1156,10 @@ width:100%;;
 }
 }
 
-@media (max-width: 480px) {
-.banner-container {
+@media (max-width: 555px) {
+/* .banner-container {
 	height: 500px;
-}
+} */
 #home .heading h2 {
 	font-size: 22px !important;
 	line-height: 28px;
@@ -1193,7 +1201,7 @@ width:100%;;
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 555px) {
 .banner-container {
 }
 .grid .text-content {
@@ -1204,7 +1212,7 @@ nav#filter li {
 	display: inline-block;
 	margin: 0 0 23px 5px;
 }
-}
+
 .customNavigation {
 	text-align: center;
 }
@@ -1239,4 +1247,5 @@ nav#filter li {
 }
 li.active a {
 color: #FFFFFF;
+}
 }
